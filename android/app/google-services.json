@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "137565283895",
+    "project_id": "asianlink-b0111",
+    "storage_bucket": "asianlink-b0111.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137565283895:android:3c08752ec490031da3c1b2",
+        "android_client_info": {
+          "package_name": "ai.asianlink.asianlink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137565283895-d12edbf539jsmshmvfcte09oksd74i14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.asianlink.asianlink",
+            "certificate_hash": "8e3ddd9321ae917644f7457e341fa245ea88a34f"
+          }
+        },
+        {
+          "client_id": "137565283895-iljre9sfusku2n9m0sv4vj68s1a5oqne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcaKmCAOEpFU7AhhDA2H3G_wgpI8occEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137565283895-iljre9sfusku2n9m0sv4vj68s1a5oqne.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "137565283895-0g7solt0jhdh84gj34fro8pi091i98q9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.asianlink"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137565283895:android:b7efa31097c21c5ca3c1b2",
+        "android_client_info": {
+          "package_name": "com.example.asianlink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137565283895-8s2l1ipcb0mvoir9lfq6klqllbm98td1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asianlink",
+            "certificate_hash": "642c1056ffd06c2ceae95e025f0e6f74d23ef049"
+          }
+        },
+        {
+          "client_id": "137565283895-bbs0jcb3ocblopebmdkvvblmk7099idn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asianlink",
+            "certificate_hash": "8e3ddd9321ae917644f7457e341fa245ea88a34f"
+          }
+        },
+        {
+          "client_id": "137565283895-iljre9sfusku2n9m0sv4vj68s1a5oqne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcaKmCAOEpFU7AhhDA2H3G_wgpI8occEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137565283895-iljre9sfusku2n9m0sv4vj68s1a5oqne.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "137565283895-0g7solt0jhdh84gj34fro8pi091i98q9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.asianlink"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
