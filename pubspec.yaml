@@ -1,51 +1,49 @@
 name: main
 description: A new Flutter project.
-publish_to: 'none' # Prevent publishing to pub.dev
+publish_to: 'none'
 
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.8.0
+  sdk: ^3.8.1
 
 dependencies:
   flutter:
     sdk: flutter
 
-  # Git-based modules
-  module_a:
-    git:
-      url: https://github.com/art-dev3/module-a.git
+  cupertino_icons: ^1.0.8
+  http: ^1.1.0
+
+  json_dynamic_widget: ^10.0.1
+  json_theme: ^9.0.1+1
+  hugeicons_pro: ^0.0.1
+  hugeicons: ^0.0.11
+
 
   module_b:
     git:
       url: https://github.com/art-dev3/module-b.git
-
-  # iOS style icons
-  cupertino_icons: ^1.0.8
-  dynamic_widget: ^6.0.0
-  http: ^0.13.6
-  stac: ^0.11.0
+      ref: main
+  cached_network_image: ^3.4.1
+  video_player: ^2.10.0
+  dio: ^5.8.0+1
+  equatable: ^2.0.7
+  flutter_bloc: ^9.1.1
+  cloud_firestore: ^5.6.9
+  firebase_auth: ^5.6.0
+  shared_preferences: ^2.5.3
+  firebase_messaging: ^15.2.7
+  dotenv: ^4.2.0
+  flutter_dotenv: ^5.2.1
+  get: ^4.7.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
-  
-
-  # To add assets to your application, uncomment and use like below:
   assets:
     - assets/test.json
-  #   - images/
-  #   - assets/icons/
-
-  # To add custom fonts to your application:
-  # fonts:
-  #   - family: CustomFont
-  #     fonts:
-  #       - asset: fonts/CustomFont-Regular.ttf
-  #       - asset: fonts/CustomFont-Bold.ttf
-  #         weight: 700
+    - .env.dev
